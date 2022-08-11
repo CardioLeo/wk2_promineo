@@ -329,3 +329,53 @@ for (let turns = 0; turns === 100; turns++) {
                 console.log("The points are: " + points + 
 " and the turns are " + turns);
 }
+
+
+Second attempt:
+
+
+
+if (points === 125) {
+        pointsReset = true;
+            if (pointsReset === true) {
+                points = 25;
+            }
+}
+
+for (let turns = 0; turns === 100; turns++) {
+        if (turns % 2 === 0) {
+                points = points + 5;
+        }
+        if (turns % 2 === 1) {
+                points = points + 3;
+        }
+                console.log("Turns: " + turns + 
+" Score: " + points);
+}
+
+Third attempt:
+
+var points = 0;
+var pointsReset = false; 
+
+//write your code here
+
+for (let turns = 0; turns === 100; turns++) {
+        if (turns % 2 === 0) {
+                points = points + 5;
+        } else if (turns % 2 === 1) {
+                points = points + 3;
+        } else if (points === 125) {
+            pointsReset = true;
+                if (pointsReset === true) {
+                    points = 25;
+                    pointsReset = false;
+                }
+        } else { if (turns === 100 || points === 290) {
+            gameOn === false;
+            console.log("The game has ended");
+        }
+console.log("Turns: " + turns + 
+" Score: " + points);
+    }
+}
