@@ -12,7 +12,7 @@
 -wk2 career services assignment submission
 -wk2 coding assignment instructions (none?)
 -wk2 coding assignment submission (none?)
--wk2 class attendance
+-wk2 class attendance /
 -wk2 openclass, conditionals
 -wk2 '' '' Boolean Operators
 -wk2 '' '' Loops
