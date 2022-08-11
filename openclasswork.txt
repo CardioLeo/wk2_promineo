@@ -308,4 +308,24 @@ var pointsReset = false;
 
 //write your code here
 
+First attempt:
 
+if (pointsReset = true) {
+	points = 25;
+}
+
+while (points != 125) do {
+	if (points = 125) {
+		pointsReset = true;
+}
+
+for (let turns = 0; turns === 100; turns++) {
+	if (turns % 2 === 0) {
+		points = points + 5;
+	}
+	if (turns % 2 === 1) {
+		points = points + 3;
+	}
+                console.log("The points are: " + points + 
+" and the turns are " + turns);
+}
