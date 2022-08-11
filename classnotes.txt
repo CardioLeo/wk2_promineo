@@ -1,0 +1,6 @@
+# Author: William Z Chadwick
+# Date Created: 08/10/2022
+# Date Modified: 08/10/2022
+# Description: Class Notes for Wed, Aug 10th, 2022, Promineo Tech Front End Bootcamp.
+
+Ternary expressions, shorthand for if/else statements. I should check those out.

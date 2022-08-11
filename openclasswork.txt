@@ -51,3 +51,32 @@ switch (monthNumber) {
         console.log("No one knows the time or the seasons...")
 }
 
+
+---
+
+Problem 4
+
+Write an IF statement that checks to see if there is enough money to cover the cost of a soda. If so, print "I can buy a soda!".
+If not, print "I need to earn some more money!"
+
+var fs = require("fs");
+var input = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+var money = parseInt(input[0]);
+var costOfSoda = parseInt(input[1]);
+
+//write your code here
+
+if (costOfSoda > money) {
+        console.log("I need to earn some more money!")
+}
+else {
+if (costOfSoda <= money) {
+        console.log("I can buy a soda!")
+}
+}
+
+---
+
+Problem 5
+
+
