@@ -1,0 +1,21 @@
+# Author: William Z Chadwick
+# Date Created: 08/10/2022
+# Date Modified: 08/10/2022
+# Description: A To-Do list for Week 2
+
+-weekly videos and text
+-wk2 lab
+-mentors
+-wk2 research
+-wk2 linkedin posts
+-wk2 career services assignment instruct
+-wk2 career services assignment submission
+-wk2 coding assignment instructions (none?)
+-wk2 coding assignment submission (none?)
+-wk2 class attendance
+-wk2 openclass, conditionals
+-wk2 '' '' Boolean Operators
+-wk2 '' '' Loops
+
+-make sure you're up to date with all previous tasks
+
