@@ -4,3 +4,5 @@
 # Description: Class Notes for Wed, Aug 10th, 2022, Promineo Tech Front End Bootcamp.
 
 Ternary expressions, shorthand for if/else statements. I should check those out.
+
+Probably will be a short class day because there's not a ton to talk about he says.
