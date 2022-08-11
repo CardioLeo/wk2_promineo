@@ -219,4 +219,15 @@ while (currentCupsOfRice < requiredCupsOfRice) {
 	console.log("We have enough rice!"):
 }
 
+XXXXX
+
+That doesn't work;
+
+try this:
+
+currentCupsOfRice++;
+do {console.log("The bowl contains " + currentCupsOfRice + " cups of rice.") + currentCupsOfRice++} while (currentCupsOfRice <= requiredCupsOfRice);
+
+console.log("We have enough rice!");
+
 
