@@ -511,3 +511,5 @@ To determine if myGrade is passing, it must be greater than or equal to >= passi
 To determine if myGrade is an A, it must be greater than or equal to >= 90."
 
 I will have to leave off for now, I am just to tired.
+
+Helpful online js compiler, sincer vscode isn't working right...: https://www.programiz.com/javascript/online-compiler/
