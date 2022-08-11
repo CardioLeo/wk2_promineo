@@ -408,3 +408,23 @@ for (let turns = 0; turns === 100; turns++) {
         }
     }
 }
+
+Unfortunately I don't have time to spend going over this still. I have barely coded all week and now have coded all day. Work tomorrow and I have to keep up around the house. :/
+
+Instructor's version:
+
+var points = 0;
+var pointsReset = false; 
+
+for(var i = 0; i < 100 && points < 290; i++){
+    if(points == 125 && pointsReset === false){
+        points = 25;
+        pointsReset = true;
+    } else if(i % 2 === 0){
+        points = points + 5;
+    } else {
+        points = points + 3;
+    }
+    
+    console.log("Turns: " + i + " Score: " + points)
+}
