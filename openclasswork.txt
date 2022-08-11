@@ -230,4 +230,17 @@ do {console.log("The bowl contains " + currentCupsOfRice + " cups of rice.") + c
 
 console.log("We have enough rice!");
 
+---
+
+Problem 3
+
+Write a for loop that prints the numbers 0 to x. The x has been initialized for you and will be based on a user's input.
+
+var fs = require("fs");
+var input = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+var x = parseInt(input[0]);
+
+
+//write your code here
+
 
