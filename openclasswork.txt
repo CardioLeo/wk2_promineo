@@ -243,4 +243,41 @@ var x = parseInt(input[0]);
 
 //write your code here
 
+for (let i = 0; i <= x; i++) {
+	console.log(i);
+}
 
+---
+
+Problem 4
+
+Write a for loop that prints every third number from 0 up to, and including, 99.
+
+for (let i = 0; i <= 99; i + 3) {
+	console.log(i);
+}
+
+^^^^ That doesn't work, the immediately below does, but it can't be quite right, haha
+
+for (let i = 0; i <= 99;) {
+        console.log(i)
+        i++, i++, i++;
+}
+
+
+oh, this is what they had in mind:
+
+for (let i = 0; i <= 99;) {
+        console.log(i)
+        i = i + 3;
+}
+
+Or at least when I thought about it more (before I looked at their solution, I remembered that you have to assign i in the loop to i + 3.
+
+The instructor's solution (Instructor Tyler Wilhelm) goes as follows:
+
+for(var i = 0; i <= 99; i++){
+    if(i % 3 === 0){
+        console.log(i)
+    }
+}

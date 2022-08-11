@@ -1,0 +1,59 @@
+# Author: William Z Chadwick
+# Date Created: 08/10/2022
+# Date Modified: 08/10/2022
+# Description: A place to get my notes ready for my research quiz.
+
+I found this very interesting while going through the External Resource, the Open Class exercises, on Loops.
+
+Specifically, I thought it was fascinating that you can write loops so many different ways to achieve the same effect.
+
+See my notes on Problem 4 below:
+
+---
+
+Problem 4
+
+Write a for loop that prints every third number from 0 up to, and including, 99.
+
+for (let i = 0; i <= 99; i + 3) {
+        console.log(i);
+}
+
+^^^^ That doesn't work, the immediately below does, but it can't be quite right, haha
+
+for (let i = 0; i <= 99;) {
+        console.log(i)
+        i++, i++, i++;
+}
+
+
+oh, this is what they had in mind:
+
+for (let i = 0; i <= 99;) {
+        console.log(i)
+        i = i + 3;
+}
+
+Or at least when I thought about it more (before I looked at their solution, I remembered that you have to assign i in the loop to i + 3.
+
+The instructor's solution (Instructor Tyler Wilhelm) goes as follows:
+
+for(var i = 0; i <= 99; i++){
+        if(i % 3 === 0){
+                console.log(i)
+        }
+}
+
+At the bottom of the page, they have another verion and ask if it would give the same output. I answered no, but this was wrong.
+
+var i = 0;
+do {
+        if (i % 3 === 0) {
+                console.log(i);
+        }
+        i++;
+}
+while (i <= 99)
+
+The answer is yes. But I find that first if statement confusing; if (i % 3 === 0).... ohhhhh. If i divided by 3 equals 0... Now it makes sense. Yeah, that should work. So many ways to get the same answer.
+
