@@ -1,9 +1,5 @@
-
-
 var points = 0;
 var pointsReset = false; 
-
-//write your code here
 
 for (let turns = 0; turns === 100 && points === 290; turns++) {
         if (turns % 2 === 0) {
