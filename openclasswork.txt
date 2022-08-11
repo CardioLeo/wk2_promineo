@@ -8,6 +8,11 @@ var fs = require("fs");
 var input = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
 var monthNumber = parseInt(input[0]);
 
+JavaScript Week 2, Conditionals, Boolean Operators, Loops
+
+---
+
+Problem 3
 
 //Write your code here
 switch (monthNumber) {
@@ -78,5 +83,140 @@ if (costOfSoda <= money) {
 ---
 
 Problem 5
+
+Write a series of IF/ELSE IF statements that check the numberGrade and assign letterGrade to a string of the corresponding letter grade. Print the letter grade to the console.
+
+A: 90+
+B: 80-89
+C: 70-79
+D: 60-69
+F: 0-59
+
+Make sure to use a capital letter for the grade.
+
+if (numberGrade >= 90) {
+	console.log("A");
+} else if (numberGrade >= 80 && numberGrade <= 89) {
+	console.log("B");
+}
+else if (numberGrade >= 70 && numberGrade <= 79) {
+	console.log("C");
+}
+else if (numberGrade >= 60 && numberGrade <= 69) {
+	console.log("D");
+}
+else if (numberGrade <= 59) {
+	console.log("F");
+}
+
+---
+
+Problem 8(?)
+
+Write an IF/ELSE statement that prints the smaller of the two given inputs, num1 and num2. If they are the same, print "same".
+
+var fs = require("fs");
+var input = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+var num1 = parseInt(input[0]);
+var num2 = parseInt(input[1]);
+
+//write your code here
+
+if (num1 == num2) {
+        console.log("same");
+} else if (num1 < num2) {
+        console.log(num1);
+} else if (num2 < num1) {
+        console.log(num2);
+}
+
+---
+
+Problem 9(?)
+
+Create an if/else if statement that checks myNumber against num1 and based on which condition evaluates to true, print the following messages:
+
+num1 + " is smaller than my number, " + myNumber num1 + " is larger than my number, " + myNumber num1 + " is equal to my number, " + myNumber
+
+var fs = require("fs");
+var input = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+var myNumber = parseInt(input[0]);
+var num1 = parseInt(input[1]);
+
+//write your code here.
+
+if (num1 == myNumber) {
+	console.log(num1 + " is equal to my number, " + myNumber);
+} else if (num1 > myNumber) {
+	console.log(num1 + " is larger than my number, " + myNumber);
+} else if (num1 < myNumber) {
+	console.log(num1 + " is smaller than my number, " + myNumber);
+}
+
+---
+
+Problem 10(?)
+
+Write an IF statement that checks if the given age is greater than or equal to 16. If it is, set canDrive to true and print it's value to the console.
+
+var fs = require("fs");
+var input = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+var age = parseInt(input[0]);
+var canDrive = false;
+
+//Write your code here
+
+if (age >= 16) {
+	canDrive = true;
+	console.log(canDrive);
+}
+
+---
+
+Loops 
+
+---
+
+Problem 1
+
+Create a for loop that prints out a multiplication table for num from 1 through 10 as follows (the value of num will be input by the user):
+If a user enters 1, the console should print the following:
+
+1 x 1 = 1
+1 x 2 =2
+1 x 3 = 3
+1 x 4 = 4
+1 x 5 = 5
+1 x 6 = 6
+1 x 7 = 7
+1 x 8 = 8
+1 x 9 = 9
+1 x 10 = 10
+
+for (let i = 1; i < 11; i++) {
+        console.log(num + " x " + i + " = " + num * i);
+}
+
+---
+
+Problem 2
+
+Using the supplied variables, create a loop of your choice that will add cups of rice to a bowl. Each time a cup of rice is added, print "The bowl contains X cups of rice.", where X is the number of cups added. Once the number of cups called for has been reached, print "We have enough rice!".
+Note, we don't need to know if the bowl is empty.
+
+var fs = require("fs");
+var input = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+
+var requiredCupsOfRice = parseInt(input[0]);
+var currentCupsOfRice = 0;
+
+//write your code here
+
+while (currentCupsOfRice < requiredCupsOfRice) {
+	console.log("The bowl contains " + currentCupsOfRice + " cups of rice.");
+	currentCupsOfRice++;
+	if (currentCupsOfRice == requiredCupsOfRice) break;
+	console.log("We have enough rice!"):
+}
 
 
