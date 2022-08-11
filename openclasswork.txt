@@ -1,0 +1,53 @@
+# Author: William Z Chadwick
+# Date Created: 08/10/2022
+# Date Modified: 08/10/2022
+# Description: Notes about code written while doing the Promineo Tech OpenClass External Tool exercises.
+
+
+var fs = require("fs");
+var input = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+var monthNumber = parseInt(input[0]);
+
+
+//Write your code here
+switch (monthNumber) {
+    case monthNumber=1:
+        console.log("January");
+        break;
+    case monthNumber=2:
+        console.log("February");
+        break;
+    case monthNumber=3:
+        console.log("March");
+        break;
+    case monthNumber=4:
+        console.log("April");
+        break;
+    case monthNumber=5:
+        console.log("May");
+        break;
+    case monthNumber=6:
+        console.log("June");
+        break;
+    case monthNumber=7:
+        console.log("July");
+        break;
+    case monthNumber=8:
+        console.log("August");
+        break;
+    case monthNumber=9:
+        console.log("September");
+        break;
+    case monthNumber=10:
+        console.log("October");
+        break;
+    case monthNumber=11:
+        console.log("November");
+        break;
+    case monthNumber=12:
+        console.log("December");
+        break;
+    default:
+        console.log("No one knows the time or the seasons...")
+}
+
