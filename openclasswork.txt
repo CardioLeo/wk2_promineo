@@ -545,4 +545,47 @@ it also received an error. I refreshed the page and both pieces of code passed t
 
 Kudos to Sarah.
 
+---
+
+Problem 5
+
+Haha, I should read the instructions first shouldn't I; the instructor's solution makes more sense than mine, especially given that it matches the instructions...
+
+Problem:
+Using Boolean Operators, print the result of a is greater than b or b and c are greater than d.
+
+You will need to use the greater than >, OR ||, and AND && operators. B is greater than D AND C is greater than D will need to be in parenthesis to ensure they are checked against the A is greater than B.
+
+My solution:
+var fs = require("fs");
+var input = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+var a = parseInt(input[0]);
+var b = parseInt(input[1]);
+var c = parseInt(input[2]);
+var d = parseInt(input[3]);
+
+//Write your code here
+console.log(a > b || b && c > d);
+
+Instructor's solution:
+console.log(a > b || (b > d && c > d));
+
+---
+
+Problem 6
+
+Using a boolean operator, print the result of num1 is greater than num2. Then write another comparison printing the result of num1 is less than num2.
+
+The greater than operator is >.
+The less than operator is <.
+
+var fs = require("fs");
+var input = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+var num1 = parseInt(input[0]);
+var num2 = parseInt(input[1]);
+
+//Write your code here
+console.log(num1 > num2);
+console.log(num1 < num2);
+
 
