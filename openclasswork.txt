@@ -514,4 +514,35 @@ I will have to leave off for now, I am just to tired.
 
 Helpful online js compiler, sincer vscode isn't working right...: https://www.programiz.com/javascript/online-compiler/
 
+first attempt:
+
+var fs = require("fs");
+var input = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+var myGrade = parseInt(input[0]);
+var passingGrade = 70;
+
+//write your code here.
+if (myGrade >= passingGrade) {
+    console.log(true);
+} else {
+    console.log(false);
+}
+
+if (myGrade >= 90) {
+    console.log(true);
+} else {
+    console.log(false);
+}
+
+"error" no description of error
+
+Sarah Schmid suggested running this code:
+
+console.log(myGrade >= passingGrade);
+console.log(myGrade >= 90);
+
+it also received an error. I refreshed the page and both pieces of code passed the tests; although Sara's solution is better, and was the instructor's solution.
+
+Kudos to Sarah.
+
 
