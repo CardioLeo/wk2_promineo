@@ -21,6 +21,16 @@ Research Instructions:
 
 ---
 
+1. JavaScript provides us with the following types of loops: For Loops, For-In Loops, For-Of Loops, While Loops, Do-While Loops, and I get the feeling that you might be able to write switch-statement loops, but I can't find anything on it when I look.
+
+2. The syntax of the for loop in JavaScript goes like this:
+for (let i = 0; i <= 10; i++) {
+	console.log(i);
+}
+You would use this loop when you need to provide a counter, like counting to 10, or a count-down, as in a "countdown to launch." How you would use it depends on what you want to do, but as I wrote it above you would use the i variable as the number of units of time (like seconds) in a countdown (or count-up). I learned this syntax and information from using the Mimo app's Web Development course and from the Grasshopper app's courses in JavaScript, Fundamentals I and II, and Intro to Interviewing. Also, of course, from reviewing the material in Promineo Tech's Week 2 curriculum.
+
+---
+
 I found this very interesting while going through the External Resource, the Open Class exercises, on Loops.
 
 Specifically, I thought it was fascinating that you can write loops so many different ways to achieve the same effect.
