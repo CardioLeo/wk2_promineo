@@ -4,12 +4,12 @@
 # Description: A To-Do list for Week 2
 
 -weekly videos and text /
--wk2 lab ()
+-wk2 lab (X)
 -mentors X
--wk2 research ()
+-wk2 research (/)
 -wk2 linkedin posts /
--wk2 career services assignment instruct ()
--wk2 career services assignment submission ()
+-wk2 career services assignment instruct (/)
+-wk2 career services assignment submission (/)
 -wk2 coding assignment instructions (none?) /
 -wk2 coding assignment submission (none?) /
 -wk2 class attendance /
@@ -18,10 +18,10 @@
 -wk2 '' '' Loops /
 
 Still to do:
--Career Services ()
--wk2 lab ()
--go over weekly videos and text again ()
+-Career Services (/)
+-wk2 lab (X)
+-go over weekly videos and text again (ish)
 -wk2 research /
 
--make sure you're up to date with all previous tasks
+-make sure you're up to date with all previous tasks /
 
